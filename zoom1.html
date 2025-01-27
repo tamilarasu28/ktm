@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="/tamil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjiIGPEEqYq1DwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .one3 {
+
+            margin-left: 40%;
+            margin-top: 10%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div style="overflow:visible;
+                ">
+    <img src="/imgktm1.jpeg" alt="..."  width="500px" class="one3" >
+    <img src="/imgktm2.jpeg" alt="..."  width="200px"  class="two3">
+    <img src="/imgktm3.jpeg" alt="..."  width="500px" class="three3">
+    </div>
+    <button></button>
+    <button class="butooo"style="padding: 42px 46x 62px 76px;  font-size: 18px; margin: 0px 0px 0px 0px; font-weight: bold;"><p class="pbut">VISIT MODEL PAGE</p></button>
+    <script>
+        $(document).ready(function(){
+            $('.one3').hover (
+                function (){
+                    $(this).animate ({
+                        width:"700px;"
+                        
+                    
+                        
+                        
+                    });
+                },
+                function (){
+                    $(this).animate({
+                        width:"250px;"
+                        
+                    });
+                }
+                
+            );
+        });
+
+        $(document).ready(function(){
+            $('.two3').hover (
+                function (){
+                    $(this).animate ({
+                        slidetoggle:"99 99px 99px 00px"
+                        
+                    
+                        
+                        
+                    });
+                },
+                function (){
+                    $(this).animate({
+                        width:"99px 99px 99px 99px"
+                        
+                    });
+                }
+            );
+        });
+
+        $(document).ready(function(){
+            $('.three3').hover (
+                function (){
+                    $(this).animate ({
+                        slidetoggle:"99 99px 99px 00px"
+                        
+                    
+                        
+                        
+                    });
+                },
+                function (){
+                    $(this).animate({
+                        width:"99px 99px 99px 99px"
+                        
+                    });
+                }
+            );
+        });
+    </script>
+</body>
+</html>

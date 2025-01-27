@@ -1,0 +1,89 @@
+body{
+    font-family:'Courier New', Courier, monospace ;
+    scroll-behavior: smooth;
+}
+.navul{
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    gap: 15px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 64px;
+}
+
+.carousel-caption{
+    margin-top: 50px;
+}
+.pbut:hover{
+    color: rgb(255,102,0);
+    transition: 0ms;
+    color: rgb(255, 102, 0) !important;
+}
+.butooo:hover{
+    background: transparent;
+    color: rgb(255, 102, 0) ;
+    transition: 800ms;
+}
+
+.butooo{
+    background-color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+    color: white;
+    padding: 10px 91px 1px 91px;
+    font-weight: bolder;
+}
+.fivecons{
+    border-top: 2px solid  rgb(255,102,0);
+    display: flex;
+    gap: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: black;
+    padding: 70px 14px 30px 20px;
+    margin-bottom: 100px;
+}
+.fivico{
+    display: flex;
+    gap: 220px;
+    color: #383431;
+    margin: -56px 10px 0px 0px;
+    font-size: 35px;
+}
+.fa-location-dot:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-screwdriver-wrench:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-flag:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-gear:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-ideal:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+
+.butoooq:hover{
+    background: transparent;
+    color: rgb(255, 102, 0) ;
+    transition: 800ms;
+}
+
+.butoooq{
+    background-color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+    color: white;
+    padding: 30px 61px 10px 61px;
+    font-weight: bolder;
+}
+
+

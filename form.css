@@ -1,0 +1,99 @@
+.navul{
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    gap: 15px;
+
+    z-index: 1;
+    margin-top: 64px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f100;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  gap: 50px;
+  background-color: #f1f1f100;
+}
+
+.containerd {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 40px;
+  gap: 50px;
+  background-color: #f1f1f100;
+}
+.containerf {
+  padding: 20px;
+  padding-left: 120px;
+  padding-right: 88px;
+  gap: 50px;
+  background-color: #f1f1f100;
+}
+.containerg {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 40px;
+  gap: 50px;
+  background-color: #f1f1f100;
+}
+.containercontry {
+  padding: 20px;
+  padding-left: 260px;
+  padding-right: 210px;
+  gap: 50px;
+  background-color: #f1f1f100;
+ margin-bottom: 10px;
+}
+.containerlanguage {
+  padding: 20px;
+  padding-left: 260px;
+  padding-right: 234px;
+  gap: 50px;
+  background-color: #f1f1f100;
+}
+
+.containerstreet{
+  padding: 20px;
+  padding-left: 260px;
+  padding-right: 134px;
+  gap: 50px;
+  background-color: #f1f1f100;
+}
+
+
+
+
+
+
+
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+

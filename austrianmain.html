@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/austrianmain.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjiIGPEEqYq1DwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+<style>
+  /* * {
+  box-sizing: border-box;
+} */
+
+.zoom {
+ 
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.nav{
+    display: flex;
+    margin-left: -50px;
+    font-size: 17px;
+    font-weight: bold;
+    list-style-type: none;
+    gap: 9px;
+    position:absolute;
+    z-index: 10;
+    margin-top: 45px;
+    margin-bottom: -400PX;
+    margin-left: -90px;
+}
+
+
+.model1:hover{
+  color: rgb(255, 102, 0);
+}
+.model1{
+  color: rgb(255, 255, 255);
+}
+.model2:hover{
+  color: rgb(255, 102, 0);
+}
+.model2{
+  color: rgb(255, 255, 255);
+}
+.model3:hover{
+  color: rgb(255, 102, 0);
+}
+.model3{
+  color: rgb(255, 255, 255);
+}
+.model4:hover{
+  color: rgb(255, 102, 0);
+}
+.model4{
+  color: rgb(255, 255, 255);
+}
+.model5:hover{
+  color: rgb(255, 102, 0);
+}
+.model5{
+  color: rgb(255, 255, 255);
+}
+.model6:hover{
+  color: rgb(255, 102, 0);
+}
+.model6{
+  color: rgb(255, 255, 255);
+}
+
+.partwear1:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear1{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+}
+.partwear2:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear2{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+}
+.partwear3:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear3{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+}
+.partwear4:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear4{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+}
+.partwear5:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear5{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+}
+.partwear6:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear6{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+}
+.partwear7:hover{
+  color: rgb(255, 102, 0);
+}
+.partwear7{
+  margin-left: -327px;
+  color: rgb(255, 255, 255);
+} 
+
+.racing1:hover{
+  color: rgb(255, 102, 0);
+}
+.racing1{
+  margin-left: -627px;
+  color: rgb(255, 255, 255);
+}
+.racing2:hover{
+  color: rgb(255, 102, 0);
+}
+.racing2{
+  margin-left: -627px;
+  color: rgb(255, 255, 255);
+}
+.racing3:hover{
+  color: rgb(255, 102, 0);
+}
+.racing3{
+  margin-left: -627px;
+  color: rgb(255, 255, 255);
+}
+.racing4:hover{
+  color: rgb(255, 102, 0);
+}
+.racing4{
+  margin-left: -627px;
+  color: rgb(255, 255, 255);
+}
+.racing5:hover{
+  color: rgb(255, 102, 0);
+}
+.racing5{
+  margin-left: -627px;
+  color: rgb(255, 255, 255);
+}
+.racing6:hover{
+  color: rgb(255, 102, 0);
+}
+.racing6{
+  margin-left: -627px;
+  color: rgb(255, 255, 255);
+}
+
+</style>
+<body>
+
+  <div class="container mt-3">
+   <a href="#ab"> <ul class="nav "></a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: rgb(240, 248, 255);" >MODELS</a>
+        <ul class="dropdown-menu" style=" border-color: rgba(165, 42, 42, 0); font-size: 50px; background-color: rgba(240, 248, 255, 0); ">
+          <li><a class="model1" href="#" style="text-decoration: none;">ENDURO</a></li>
+          <li><a class="model2" href="#"style="text-decoration: none;">TRAVEL</a></li>
+          <li><a class="model3" href="#"style="text-decoration: none;">NAKED BIKE</a></li>
+          <li><a class="model4" href="#"style="text-decoration: none;">SUPERSPORT</a></li>
+          <li><a class="model5" href="#"style="text-decoration: none;">X-BOW</a></li>
+          <li><a class="model6" href="#"style="text-decoration: none;">BRABUS</a></li>
+          
+        </ul>
+      </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ktmindia.com/enquire-now"style="color: aliceblue;">BOOK A TEST DRIVE</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"style="color: aliceblue;">POWERPARTS & POWERWEAR</a>
+          <ul class="dropdown-menu"style="border-color: rgba(165, 42, 42, 0); font-size: 50px;background-color: rgba(240, 248, 255, 0);background-origin: padding-box; ">
+          <li><a id="ab" class="partwear1" href="#" style="text-decoration: none;">POWERPARTS</a></li>
+          <li><a class="partwear2" href="#"style="text-decoration: none;">POWERWEAR</a></li>
+          <li><a class="partwear3" href="#"style="text-decoration: none;">POWERWEAR</a></li>
+          <li><a class="partwear4" href="#"style="text-decoration: none;">COLLECTIONS</a></li>
+          <li><a class="partwear5" href="#"style="text-decoration: none;">ONLINE CONFIGURATOR</a></li>
+          <li><a class="partwear6" href="#"style="text-decoration: none;">KTM EXE PLASTIC PART</a></li>
+          <li><a class="partwear7" href="#"style="text-decoration: none;">KITS</a></li>
+          </ul>
+        </li>
+          
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"style="color: aliceblue;">RACING</a>
+          <ul class="dropdown-menu"style="border-color: rgba(165, 42, 42, 0); font-size: 50px; background-color: rgba(240, 248, 255, 0); ">
+          <li><a class="racing1" href="#" style="text-decoration: none;">RACING NEWS</a></li>
+          <li><a class="racing2" href="#"style="text-decoration: none;">MotoGP™</a></li>
+          <li><a class="racing3" href="#"style="text-decoration: none;">MOTOCROSS/SUPERCROSS</a></li>
+          <li><a class="racing4" href="#"style="text-decoration: none;">ENDURO/OFFROAD US</a></li>
+          <li><a class="racing5" href="#"style="text-decoration: none;">RALLY</a></li>
+          <li><a class="racing6" href="#"style="text-decoration: none;">KTM MotoGP™ EXPERIENCE</a></li>
+          </ul>
+        </li>
+         
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"style="color: aliceblue;">KTM WORLD</a>
+          <ul class="dropdown-menu"style=" border-color: rgba(165, 42, 42, 0); font-size: 50px; background-color: rgba(240, 248, 255, 0); ">
+          <li><a class="aa" href="#"style="text-decoration: none;">NEWS</a></li>
+          <li><a class="bb" href="#"style="text-decoration: none;">STORIES</a></li>
+          <li><a class="cc" href="#"style="text-decoration: none;">RIDE KTM</a></li>
+          <li><a class="dd" href="#"style="text-decoration: none;">KTM ADVENTURE RALLY</a></li>
+          <li><a class="ee" href="#"style="text-decoration: none;">KTM TECH GUIDE</a></li>
+          <li><a class="ff" href="#"style="text-decoration: none;">KTM MAGAZINE</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"style="color: aliceblue;">SERVICES</a>
+          <ul class="dropdown-menu"style=" border-color: rgba(165, 42, 42, 0); font-size: 50px; background-color: rgba(240, 248, 255, 0);">
+          <li><a class="servicesaa" href="#" style="text-decoration: none;">EMANUALS</a></li>
+          <li><a class="servicesbb" href="#"style="text-decoration: none;">MAINTENANCE</a></li>
+          <li><a class="servicescc" href="#"style="text-decoration: none;">WARRANTY</a></li>
+          <li><a class="servicesdd" href="#"style="text-decoration: none;">SERVICE & SAFETY CHECK</a></li>
+          <li><a class="servicesee" href="#"style="text-decoration: none;">FREERIDE & HOTLINE</a></li>
+          <li><a class="servicesff" href="#"style="text-decoration: none;">SPARE PARTS FINDER</a></li>
+          <li><a class="servicesgg" href="#"style="text-decoration: none;">TIRE RECOMMENDATION</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <i class="fa-solid fa-globe" style="color: rgb(255, 102, 0); margin: 11px 20px -20px 0px;" ></i><a class="nav-link" href="https://www.ktm.com/en-in/find-a-dealer.html" style="color: aliceblue;"><li style="margin: 0px 0px 0px -40px;">FIND ADEALER</li></a>
+        </li>
+        <li class="nav-item" style="margin-left: -80px;">
+          <i class="fa-solid fa-location-dot" style="color: rgb(255, 102, 0); margin: 11px -70px 34px 70px;"></i><a class="nav-link" href="#"style="color: aliceblue;"><li style="margin: 0px 0px 0px 30px;">INDIA</li></a>
+        </li>
+        <img src="/navimg.jpg" alt="..." width="180px" height="180px" style="margin-top: -64px;">
+      
+    </ul>
+  </div>
+  
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top: -756PX;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/imgktm2.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" >
+          <p style="font-size: 21px; font-weight: bold;">THE PUNISH<p>
+            <h style="font-size: 61px; font-weight: bold;">2025 KTM 990 DUKE R</h>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imgktm4.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p style="font-size: 21px; font-weight: bold;">TAKE THE LONG WAY HOME<p>
+            <h style="font-size: 61px; font-weight: bold;">KTM 390 ADVENTURE</h><br>
+            <button class="butooo"style="padding: 22px 26x 22px 26px; font-size: 18px; margin: 0px 0px 0px 0px; font-weight: lighter;"><p class="pbut">BOOK NOW</p></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/NEW3.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p style="font-size: 21px; font-weight: bold;">ELECTRIC OFFROAD EVOLUTION<p>
+            <h style="font-size: 61px; font-weight: bold;">2025 KTM FREERIDE E</h>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fivecons">
+  <div class="fivico">
+    <i class="fa-solid fa-location-dot" style="margin: 18px 0px -10px 0px;"><h1 style="
+      display: flex;
+      color: rgb(255, 255, 255);
+      margin-left: 30px;
+      font-size: 13px;
+      margin-top: -20px;
+      margin-bottom: -110px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      ">DEALER SEARCH</h1></i>
+    <i class="fa-solid fa-screwdriver-wrench" style="margin: 18px 0px -10px 0px;"><h2 style="
+      display: flex;
+      margin-left: 39px;
+      margin-top: -20px;
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      ">CONFIGURATOR</h2></i>
+    <i class="fa-regular fa-flag" style="margin: 18px 0px -10px 0px;" ><h3 style="
+      display: flex;
+      margin-left: 35px;
+      margin-top: -20px;
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      ">BOOK A TEST RIDE</h3></i>
+    <i class="fa-solid fa-gear" style="margin: 18px 0px -10px 0px;" ><h4 style="
+      display: flex;
+      margin-left: 41px;
+      margin-top: -20px;
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      ">SPARE PARTS FINDER</h4></i>
+    <i class="fa-brands fa-ideal" style="margin: 18px 0px -10px -67px;" ><h5 style=" 
+      display: flex;
+      margin-left: 45px;
+      margin-top: -20px;
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      ">SERVICE</h5></i>
+  </div>
+  </div>
+    <center><h1 style="color: black; font-size: 75px; font-weight: bold; margin-bottom: 100px;">RECENTLY LAUNCHED</h1></center>
+    <div style="display: flex;
+                gap: 75px;
+                font-size: 20px;">
+      <div style="font-weight: bolder;">
+      <img src="/oneimg.png" alt="..." width="450px" height="300px">
+      <p style="margin-left: 60px; margin-bottom: -11px;">2025 KTM 1390 Super Adventure S</p>
+      <p style="margin-left: 180px; margin-bottom: -1px;">EVO </p>
+      <p style="color: rgb(255, 102, 0); margin-left: 132px; margin-bottom: 20px;">MORE IS MORE</p>
+      <button class="butooo"style="padding: 22px 26x 22px 26px; font-size: 18px; margin: 0px 0px 0px 45px; font-weight: bold;"><p class="pbut">VISIT MODEL PAGE</p></button>
+    </div>
+    <div style="font-weight: bolder;">
+      <img src="/three img.jpg" alt="..." width="450px" height="300px">
+      <p style="margin-left: 120px; margin-bottom: -11px;">KTM 1390 SUPER DUKE</p>
+      <p style="margin-left: 215px; margin-bottom: -1px;">R</p>
+      <p style="color: rgb(255, 102, 0); margin-left: 160px; margin-bottom: 20px;">MORE IS MORE</p>
+      <button class="butooo"style="padding: 22px 26x 22px 26px; font-size: 18px; margin: 0px 0px 0px 63px; font-weight: bold;"><p class="pbut">VISIT MODEL PAGE</p></button>
+    </div>
+    <div style="font-weight: bolder">
+      <img src="/twoimg.png" alt="..." width="450px" height="300px">
+      <p style="margin-left: 130px; margin-bottom: -11px;">THE 890 ADVENTURE</p>
+      <p style="margin-left: 223px; margin-bottom: -1px;">R</p>
+      <p style="color: rgb(255, 102, 0); margin-left: 160px; margin-bottom: 20px;">MORE IS MORE</p>
+      <button class="butooo"style="padding: 22px 26x 22px 26px; font-size: 18px; margin: 0px 0px 0px 55px; font-weight: bold;"><p class="pbut">VISIT MODEL PAGE</p></button>
+    </div>
+
+    </div>
+    <center><h1 style="color: black; font-size: 75px; font-weight: bold; margin-bottom: 100px; margin-top: 100px;">DISCOVER MORE</h1></center>
+    <div style="display: flex;
+    gap: 30px;
+                margin-left: -255px;
+                margin-bottom: 170px;">
+      <div class="zoom">
+        <img src="/one3.jpeg" alt="..." width="465px" height="350px" style="margin-bottom: 20px;">
+      </div>
+      <div class="zoom" style="margin-left: -40px;">
+        <img src="/replac.jpeg" alt="..." width="465px" height="350px" style="margin-bottom: 20px;">
+        
+      </div>
+      <div class="zoom" style="margin-left: -40px;">
+        <img src="/threethree.jpeg" alt="..." width="465px" height="350px" style="margin-bottom: 20px;">
+       
+      </div>
+    </div>
+    <div style="display: flex;
+    gap: 350px;
+    margin-left: 40px;">
+      <div style="margin-bottom: 0px;">
+        <p style="font-size: 15px; font-weight: bolder; color: black; ">#GETDUKED</p>
+        <h1 style="color: black; font-size: 25px; font-weight: bold; margin-top: -9px;">KTM NAKED</h1>
+      </div>
+      <div>
+        <p style="font-size: 15px; font-weight: bolder; color: black; ">#GOADVENTURE</p>
+        <h1 style="color: black; font-size: 25px; font-weight: bold; margin-top: -9px;">KTM TRAVEL</h1>
+      </div>
+      <div>
+        <p style="font-size: 15px; font-weight: bolder; color: black; ">RACE-BRED PERFORMANCE</p>
+        <h1 style="color: black; font-size: 25px; font-weight: bold; margin-top: -9px;">KTM SUPERSPORT</h1>
+      </div>
+    </div>
+    <center><h1 style="color: black; font-size: 75px; font-weight: bold; margin-bottom: 100px; margin-top: 100px;">KTM NEWS</h1></center>      
+            
+    <div style="margin-bottom: 204px;">
+      <img class="m" src="/x-bow.jpeg" alt=".." width="1440px" height="600px" style="margin-left: 35px;">
+      <div style="margin-top: -411px; margin-left: 900px;">
+        <h1 style="color: rgb(255, 255, 255); font-size: 75px; font-weight: bold; margin-top: -9px;">KTM X-BOW</h1>
+        <button class="butoooq"style="padding: 22px 26x 22px 26px; font-size: 17px; margin: 0px 0px 0px 185px;"><p class="pbut">EXPLORE MORE</p></button>
+      </div>
+     </div>
+
+     <div  style="display: flex; gap: 30px; margin-top: 310px; margin-left: 36px; margin-bottom: -700px; ">
+      <div>
+        <img class="imghover" src="/powerwear.jpeg" alt="..." width="710px;" height="465px;">
+        
+      </div>
+      <div>
+        <img class="imghover" src="/powerparts.jpeg" alt=".." width="710px;" height="465px;">
+        
+      </div>
+     </div> 
+  
+     <div style="display: flex;
+                  gap: 30px;
+                  margin-top: 300px;
+                  margin-bottom: 100px;
+                  margin-left: 34px;">
+      <div style="margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+        <button class="butoooqe"style=" font-size: 73px; margin: 0px 0px 0px 0px;"><p class="pbute"  >KTM <BR>POWERWEAR</p></button>
+      </div>
+      <div style="margin-top: 0px; margin-left: 0px;">
+        <button class="butoooqe"style=" font-size: 73px; margin: 0px 0px 0px 0px;"><p class="pbute"  >KTM <BR>POWERPARTS</p></button>
+      </div>
+     </div>
+  
+
+     <div class="image3">
+      <div style="margin-right: 27px;">
+        <img src="/three.1.jpeg" alt=".."  width="450px;" height="450px;" style="margin-bottom: 16px;">
+        <p style="font-size: 15px; font-weight: bolder; color: black; margin-bottom: 16px; ">13-Nov-2024</p>
+        <h1 style="color: black; font-size: 32px; font-weight: bold; margin-top: -9px; margin-bottom: 16px; text-transform: uppercase; margin-right: 10px;">Pedrosa extends crucial KTM RC16 MotoGP™ development role for a</h1>
+        <h1 style="color: black; font-size: 18px; margin-top: -9px; margin-bottom: 16px; line-height: 30px; margin-right: 15px;">The Red Bull KTM Factory Racing MotoGP project will count on the expertise and excellence of MotoGP Legend Dani Pedrosa for 2025. The Spaniard has extended his critical role in the process and the</h1>
+      </div>
+      <div>
+      <img src="/three.2.jpeg" alt=".."  width="450px;" height="450px;" style="margin-bottom: 16px;">
+      <p style="font-size: 15px; font-weight: bolder; color: black; margin-bottom: 16px; ">13-Nov-2024</p>
+      <h1 style="color: black; font-size: 32px; font-weight: bold; margin-top: -9px; margin-bottom: 16px; text-transform: uppercase;">Marc-Antoine Rossi joins Red Bull KTM MXGP squad for 2025</h1>
+      <h1 style="color: black; font-size: 18px; margin-top: -9px; margin-bottom: 16px; line-height: 30px; margin-right: 31px;">Promising French youngster Marc-Antoine Rossi will wear Red Bull KTM Factory Racing colors in 2025 and is set to steer a KTM 250 SX-F in the FIM MX2 World Championship. The 18-year-old comes into the works...</h1>
+      </div>
+      <div>
+        <img src="/three.3.jpeg" alt=".."  width="450px;" height="450px;" style="margin-bottom: 16px;">
+        <p style="font-size: 15px; font-weight: bolder; color: black; margin-bottom: 16px; ">11-Nov-2024</p>
+        <h1 style="color: black; font-size: 32px; font-weight: bold; margin-top: -9px; margin-bottom: 16px; text-transform: uppercase;">VIDEO RELEASE: 6DAYS THE MOVIE – JOSEP GARCIA OUT NOW</h1>
+        <h1 style="color: black; font-size: 18px; margin-top: -9px; margin-bottom: 16px; line-height: 30px; margin-right: 22px;">Follow Red Bull KTM Factory Racing’s Josep Garcia as he takes on the biggest race on the Enduro calendar – the International Six Days of Enduro! With this year’s race held on home soil in Spain, the reigning EnduroGP...</h1>
+      </div>
+
+     </div>
+     <center>
+      <button class="butoooq"style="padding: 22px 26x 22px 26px; font-size: 19px; margin: 70px 0px 70px 0px;"><p class="pbut">READ MORE</p></button>
+    </center>
+
+    <div style="margin-top: 100px; margin-bottom: 100px; margin-left: -500px;">
+      <div class="container">
+          <div class="image-container">
+            <div class="image"><img src="/three.1.jpeg" alt="..."></div>
+            <div class="image"><img src="/three.2.jpeg" alt="..."></div>
+            <div class="image" style="margin-top: 250px; margin-left: -700px;"><img src="/three.3.jpeg" alt="..."></div>
+            <div class="image" style="margin-top: 250px;"><img src="/three img.jpg" alt="..."></div>
+          </div>
+  
+          <div class="popup-image">
+              <span>&times;</span>
+              <img src="/three.1.jpeg" alt="">
+             </div>
+        </div>
+     </div>
+     
+     <div style="margin-top: -838px; margin-left: 757px; margin-bottom: 100px; ">
+      <img src="/black-background.png" alt="" width="700px" height="493px">
+      <div style="margin-top: -360px; margin-left: 130px;">
+        <h1 style="color: rgb(255, 255, 255);">FIND US ON INSTAGRAM</h1>
+      <P style="color: rgb(255, 255, 255); margin: 50px 0px 10px 70px;">Get your daily dose of #ReadyToRace</P>
+      <button class="butoooql"style="padding: 22px 26x 22px 26px; font-size: 19px; margin: 20px 0px 60px 90px;"> <i class="fa-brands fa-instagram" style="margin: 18px 90px -10px 0px;" >
+         <P style=" margin-right: -134px; 
+         margin-top: -20px;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+         " >FOLLOW US</P></i></button>
+      </div>
+     </div>
+    <div style="margin-top: 150px;">
+      <h1 style="color: black; font-size: 19px; margin-left: 530px; margin-bottom: -60px; ">JOIN THE KTM NEWS LETTER</h1> <a href=" http://127.0.0.1:3000/form.html"> <button class="butooof"style="padding: 22px 26x 22px 26px; font-size: 19px; margin: 10px 0px 100px 800px;"><p class="pbutf">SIGN UP<i class="fa-solid fa-arrow-right" style="margin-left: 20px; color: aliceblue; " ></i></p></button></a>
+    </div>
+    
+     <div>
+      <p style="border-bottom: 1px solid rgb(139, 134, 131); color: rgba(245, 245, 220, 0); margin-top: -40px;">kkk</p>
+     </div>
+
+     <div style="color: rgb(136, 120, 120);
+     margin-left: 400px;
+     margin-right: 370px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     font-size: 14px;">
+      The illustrated vehicles may vary in selected details from the production models and some illustrations feature optional equipment available at additional cost. All information concerning the scope of supply, appearance, services, dimensions and weights is non-binding and specified with the proviso that errors, for instance in printing, setting and/or typing, may occur; such information is subject to change without notice. Please note that model specifications may vary from country to country. In the case of coated surfaces, there may be color differences due to the usual process fluctuations. The consumption values stated refer to the roadworthy series condition of the vehicles at the time of factory delivery.
+     </div>
+
+      <div style="background-color: black; color: aliceblue; line-height: 10px; font-size: 19px;
+      display: flex;
+      GAP: 120PX;
+      padding-left: 50px;
+      border-bottom: 1px solid rgb(255, 255, 255);">
+        <div>
+          <h1 style="font-size: 21px; margin-bottom: 40PX; margin-top: 20PX;">THE COMPANY</h1>
+          <p class="a" >KING AG</p><br>
+          <P class="b" >CONTACT</P><br>
+          <p class="c" >PRESS CENTER</p><br>
+          <p class="d" >PROCUREMENT</p><br>
+          <p class="e" >MEDIA LIBRARY</p><br>
+          <p class="f" >BRAND VALUES</p><br>
+          <p class="g" >BECOME A DEALER</p><br>
+          <p class="h" >INVESTOR RELATIONS</p>
+        </div>
+        <div>
+          <h1 style="font-size: 21px; margin-bottom: 40PX; margin-top: 20PX;">KTM WORLD</h1>
+          <p class="i" >NEWS</p><br>
+          <p class="j" >RACING</p><br>
+          <p class="k" >RIDE KTM</p><br>
+          <p class="l" >KTM MOTOHALL</p><br>
+          <p class="m" >KTM TECH GUIDE</p><br>
+          <p class="n" >KTM NEWSLETTER</p><br>
+          <p class="o" >KTM CONNECT APP</p><br>
+          <p class="p" >KTM ADVENTURE RALLY</p><br>
+          <p class="q" >BOOT A TESTRIDE</p><br>
+        </div>
+        <div>
+          <h1 style="font-size: 21px; margin-bottom: 40PX; margin-top: 20PX;">SERVICES</h1>
+          <P class="r" >SAFETY</P><br>
+          <P class="s" >MANUALS</P><br>
+          <P class="t" >MAINTENANCE</P><br>
+          <P class="u" >MAINTENANCE</P><br>
+          <P  class="v">CONFIGURATOR</P><br>
+          <P class="w">FREERIDE E HOTLINK</P><br>
+          <P class="x">SPARE PARTS FINDER</P><br>
+          <P class="y">WARRANTY EXTENSION</P><br>
+          <P class="z">SERVICE & SAFETY CHECK</P><br>
+        </div>
+        <div>
+          <h1 style="font-size: 21px; margin-bottom: 40PX; margin-top: 20PX;">LEGAL</h1>
+          <P class="aaa">IMPRINT</P><br>
+          <P class="bbb">LEGAL NOTICES</P><br>
+          <P class="ccc">PRIVACY POLICY</P><br>
+          <P class="ddd">CYBER SECURITY</P><br>
+          <P class="eee">CODE OF CONDUCT</P><br>
+        </div>
+        <div>
+          <h1 style="font-size: 21px; margin-bottom: 40PX; margin-top: 20PX;">CONNECT</h1>
+          <i class="fa-brands fa-facebook" style="margin-right: 20px;"></i><i class="fa-brands fa-instagram"style="margin-right: 20px;"></i><i class="fa-brands fa-youtube"style="margin-right: 20px;"></i>
+        </div>
+      </div>
+      <div>
+        <h1 id="backtotop">BACK TO TOP</h1>
+      </div>
+
+
+
+</body>
+<script>
+  document.querySelectorAll('.image-container img').forEach(image =>{
+    image.onclick = () =>{
+      document.querySelector('.popup-image').style.display = 'block';
+      document.querySelector('.popup-image img').src = image.getAttribute('src');
+    }
+  });
+  document.querySelector('.popup-image span').onclick = () =>{
+    document.querySelector('.popup-image').style.display = 'none';
+  } 
+
+  $(document).ready(function(){
+    $("#backtotop").click(function(){
+      $("#ab").slideUp();
+    })
+  })
+
+</script>
+
+</html>

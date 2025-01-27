@@ -1,0 +1,355 @@
+body{
+    font-family:'Courier New', Courier, monospace ;
+    scroll-behavior: smooth;
+}
+.navul{
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    gap: 15px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 64px;
+}
+
+.carousel-caption{
+    margin-top: 50px;
+}
+
+.a:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.b:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.c:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.d:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.e:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.f:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.g:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.h:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.i:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.j:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.k:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.l:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.m:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.n:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.o:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.p:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.q:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.r:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.s:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.t:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.u:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.v:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.w:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.x:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.y:hover{color: rgb(255, 102, 0); transition: 800ms;}
+
+.z:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.aaa:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.bbb:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.ccc:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.ddd:hover{color: rgb(255, 102, 0); transition: 800ms;}
+.eee:hover{color: rgb(255, 102, 0); transition: 800ms;}
+
+
+
+
+.pbut:hover{
+    color: rgb(255,102,0);
+    transition: 0ms;
+    color: rgb(255, 102, 0) !important;
+}
+.butooo:hover{
+    background: transparent;
+    color:rgb(255, 102, 0) ;
+    transition: 800ms;
+}
+
+.butooo{
+    background-color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+    color: white;
+    padding: 10px 91px 1px 91px;
+    font-weight: bolder;
+}
+.fivecons{
+    border-top: 2px solid  rgb(255,102,0);
+    display: flex;
+    gap: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: black;
+    padding: 70px 14px 30px 20px;
+    margin-bottom: 100px;
+}
+.fivico{
+    display: flex;
+    gap: 190px;
+    color: #383431;
+    margin: -56px 10px 0px 0px;
+    font-size: 35px;
+}
+.fa-location-dot:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-screwdriver-wrench:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-flag:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-gear:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+.fa-ideal:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+}
+
+.butoooq:hover{
+    background: transparent;
+    color: rgb(255,102,0) ;
+    transition: 800ms;
+}
+
+.butoooq{
+    background-color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+    color: white;
+    padding: 30px 61px 10px 61px;
+    font-weight: bolder;
+}
+.image3{
+    margin: 100px 0px 0px 36px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.butoooqe:hover{
+    background: transparent;
+    color: transparent ;
+    transition: 1000ms;
+}
+
+.butoooqe{
+    background-color: transparent;
+    border: 1px transparent;
+    color: white;
+    padding: 32px 190px 130px 50px;
+    font-weight: bolder;
+    
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: inherit;
+    min-height: 100vh;
+    background: #dddddd00;
+}
+
+.container .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 200px;
+}
+
+.container .image-container .image{
+    height: 250px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.container .image-container .image:hover img{
+    transform: scale(1.1);
+}
+
+.container .popup-image{
+    position:fixed ;
+    top: 0; left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.container .popup-image span{
+    position: absolute;
+    top:0; right:10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container .popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .container .popup-image img{
+        width: 95%;
+    }
+}
+
+.butoooql:hover{
+    background: transparent;
+    color: rgb(255,102,0) ;
+    transition: 800ms;
+    border: 1px solid rgb(255, 102, 0);
+}
+
+.butoooql{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 30px 61px 40px 61px;
+    font-weight: bolder;
+}
+.fa-instagram:hover{
+    color: rgb(255,102,0);
+    transition: 900ms;
+    color: rgb(255, 102, 0) !important;
+}
+
+.butooof:hover{
+    background: rgb(255, 102, 0);
+    color: rgb(255, 255, 255) ;
+    transition: 800ms;
+    border: 1px solid rgb(255, 102, 0);
+    padding-right: 90px;
+}
+
+.butooof{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+    padding: 30px 61px 20px 81px;
+    font-weight: bolder;
+}
+
+.pbut:hover{
+    color: rgb(255,102,0);
+    transition: 0ms;
+    color: rgb(255, 102, 0) !important;
+}
+
+
+.aa:hover{
+    color: rgb(255, 102, 0);
+  }
+  .aa{
+    margin-left: -747px;
+    color: rgb(255, 255, 255);
+  }
+  .bb:hover{
+    color: rgb(255, 102, 0);
+  }
+  .bb{
+    margin-left: -747px;
+    color: rgb(255, 255, 255);
+  }
+  .cc:hover{
+    color: rgb(255, 102, 0);
+  }
+  .cc{
+    margin-left: -747px;
+    color: rgb(255, 255, 255);
+  }
+  .dd:hover{
+    color: rgb(255, 102, 0);
+  }
+  .dd{
+    margin-left: -747px;
+    color: rgb(255, 255, 255);
+  }
+  .ee:hover{
+    color: rgb(255, 102, 0);
+  }
+  .ee{
+    margin-left: -747px;
+    color: rgb(255, 255, 255);
+  }
+  .ff:hover{
+    color: rgb(255, 102, 0);
+  }
+  .ff{
+    margin-left: -747px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .servicesaa:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicesaa{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  .servicesbb:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicesbb{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  .servicescc:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicescc{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  .servicesdd:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicesdd{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  .servicesee:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicesee{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .servicesff:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicesff{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  .servicesgg:hover{
+    color: rgb(255, 102, 0);
+  }
+  .servicesgg{
+    margin-left: -906px;
+    color: rgb(255, 255, 255);
+  }
+  
